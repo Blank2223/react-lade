@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.login_container{
+    justify-content: center;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+h2{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    text-align: center;
+}
+input{
+    border-radius: 8px;
+    width: 350PX;
+    height: 5vh;
+    border: 2px solid #f0f0f0;
+}
+#password_1{
+    width: 350px;
+    height: 5vh;
+    border-radius: 8px;
+}
+label{
+    display: block;
+    color: #777;
+    position: relative;
+    padding: 8px 5px;
+}
+
+button{
+    border-radius:8px;
+    width: 386px;
+    height: 6vh;
+    margin-top: 14px;
+    background-color: #1e90ff;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.form_2{
+    background-color: #fff;
+    text-transform: capitalize;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.3);
+    padding: 30px 40px;
+}
+p{
+    text-align: center;
+}
+a{
+    color: #1e90ff;
+    text-decoration: none;
+}
+.last{
+    margin-top: 8px;
+}

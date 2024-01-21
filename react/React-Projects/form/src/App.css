@@ -1,0 +1,34 @@
+.app_css{
+    border-radius: 11px;
+    border: 2px solid #333;
+    margin-top: 14px;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    margin-right: 50px;
+    color: #333;
+    background-color: #fff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #0ff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('C:\Users\carbo\React-Projects\form\math-physics-supersonic-flow-2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+p{
+    font-size: large;
+}

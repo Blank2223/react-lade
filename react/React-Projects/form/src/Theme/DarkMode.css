@@ -1,0 +1,50 @@
+:root{
+    --body_backgroung: white;
+    --body_color:black;
+    --link_color:navy;
+}
+
+[data-theme="dark"] {
+    --body_background:#282c34;
+    --body_color:white;
+    --link_color:cyan;
+}
+
+*{
+    transition: all 0.2s ease-in-out;
+}
+
+/*.dark-mode-toggle {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    color:#333;
+    padding:10px 20px;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.03s;
+}
+
+.dark-mode-toggle.dark-mode-active {
+    background-color:#333;
+    color:#fff;
+}*/
+/* Style the hidden checkbox */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the toggle button label */
+  .toggle-label {
+    background-color: #3498db; /* Default background color */
+    color: #fff; /* Default text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Style the label when the checkbox is checked (toggled) */
+  input[type="checkbox"]:checked + .toggle-label {
+    background-color: #e74c3c; /* Toggled background color */
+    color: #fff; /* Toggled text color */
+  }
